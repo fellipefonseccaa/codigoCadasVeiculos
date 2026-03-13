@@ -1,0 +1,15 @@
+public class Main {
+  public static void main(String[]args) {
+
+    Carro carro = new Carro("Toyota", 2022, 4);
+    Moto moto = new Moto("Honda", 2022, 300);
+
+    System.out.printIn("Informacoes do Carro:");
+    carro.exibirInformacoes();
+
+    System.out.printIn();
+
+    System.out.printIn("Informacoes da Moto:");
+    Moto.exibirInformacoes();
+  }
+}
